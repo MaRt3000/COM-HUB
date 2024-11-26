@@ -58,7 +58,7 @@ const Carousel = () => {
           </div>
         ))}
         {/* Indicators */}
-      <div className="absolute   inset-0 flex items-center justify-center mb-[-100%]  sm:mb-[-100%] md:mb-[-40%] lg:mb-[-50%]">
+      <div className="absolute   inset-0 flex items-center justify-center mb-[-20%]  md:mb-[-40%] lg:mb-[-50%]">
         <div className="flex space-x-2 mb-[-60px]  sm:mb-[-60px]">
           {slides.map((_, index) => (
             <button

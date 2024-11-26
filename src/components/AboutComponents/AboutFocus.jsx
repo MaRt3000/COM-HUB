@@ -45,7 +45,7 @@ const AboutFocus = () => {
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {slides.map((slide, index) => (
-            <div key={index} className="grid grid-rows-1 w-[70%] lg:grid-cols-3 min-w-full gap-6 justify-center items-center  lg:justify-between px-4 space-x-4">
+            <div key={index} className="grid grid-rows-1 w-[70%] lg:grid-cols-3 min-w-full gap-6 justify-center items-center  lg:justify-between px-4 ">
               {slide.map((card, cardIndex) => (
                 <div
                   key={cardIndex}
