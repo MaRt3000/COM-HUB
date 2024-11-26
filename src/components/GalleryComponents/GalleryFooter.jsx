@@ -14,7 +14,7 @@ const AboutFooter = () => {
         <p className='font-Jost flex items-center gap-3 justify-center font-[450] lg:text-[19px] text-white text-center pb-10 '>
         <FaCopyright /> 2023, COM. All Rights Reserved.
         </p>
-        <p className='font-Jost font-[450] lg:text-[19px] text-white text-center '>About Page By Uyi</p>
+       
     </section>
     </>
   )
