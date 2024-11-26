@@ -42,8 +42,8 @@ const Carousel = () => {
       <Header />
 
             <div className="bg-black  bg-opacity-50 w-full h-full flex items-center justify-start px-10 ">
-              <div className="text-center text-white mt-[60px] px-2 sm:px-2 sm:mt-[130px]   lg:mt-[20px] sm:text-center lg:px-8 lg:text-start">
-                <p className="text-[16.5px] mt-[-145px]  sm:mt-[-145px]  sm:text-[16.5px] lg:text-[31px]  ">{slide.label}</p>
+              <div className="text-center text-white mt-[60px]  px-2 sm:px-2 sm:mt-[30px]   lg:mt-[20px] sm:text-center lg:px-8 lg:text-start">
+                <p className="text-[16.5px] mt-[-18rem]  sm:mt-[-145px]  sm:text-[16.5px] lg:text-[31px]  ">{slide.label}</p>
                 <h2 className="text-[28.6px]   sm:text-[28.6px] py-[15px] sm:py-[15px] lg:py-[58px] lg:text-[49px] font-bold ">
                   {slide.title}
                 </h2>
@@ -58,8 +58,8 @@ const Carousel = () => {
           </div>
         ))}
         {/* Indicators */}
-      <div className="absolute   inset-0 flex items-center justify-center mb-[-20%]  md:mb-[-40%] lg:mb-[-50%]">
-        <div className="flex space-x-2 mb-[-60px]  sm:mb-[-60px]">
+      <div className="absolute  inset-0 flex top-[28rem] lg:top-0 lg:items-center justify-center mb-[-25rem] sm:mb-[20%]  md:mb-[-40%] lg:mb-[-50%]">
+        <div className="flex space-x-2 mb-[80px]  sm:mb-[-60px]">
           {slides.map((_, index) => (
             <button
               key={index}
